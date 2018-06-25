@@ -25,7 +25,8 @@ SECRET_KEY = 'wf(qd$0+#vvy-3wwmp5wzqrlh2#@2n3ibp49-8$)4-7wa@594a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lucianopcbr.pythonanywhere.com']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1',
+                 'lucianopcbr.pythonanywhere.com']
 
 
 # Application definition
